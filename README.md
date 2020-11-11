@@ -16,7 +16,7 @@ El puerto: 8080
 ## En PC
 1. dirigirse al directorio o workspace deseado.
 ```sh
-$ cd workspace
+$ cd workspace/src/
 ```
 2. clonar este repositorio (Paquete de ROS).
 ```sh
