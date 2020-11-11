@@ -26,20 +26,21 @@ $ git clone
 
 ![imagen](https://github.com/AndresFlorez-Git/IP_Camera_pkg/blob/main/pic/ip_mod.png)
 
-4.Compilar
+4. Compilar
 ```sh
 $ catkin_make
 ```
-5.Establecer las variables de entorno
+5. Establecer las variables de entorno
 ```sh
 $ source devel/setup.bash 
 ```
-6.Ejecutar pubisher.py (crea un nodo "IPCamera" que publica al tópico "camera_image" la imagen)
+6. Ejecutar pubisher.py (crea un nodo "IPCamera" que publica al tópico "camera_image" la imagen)
 ```sh
 $ rosrun IP_Camera_pkg pubisher.py
 ```
-7.Ejecutar en otra terminal (estableciendo variables de entorno) subscriber.py (crea un nodo que se subscribe al tópico "camera_image" y visualiza la información)
+7. Ejecutar en otra terminal (estableciendo variables de entorno) subscriber.py (crea un nodo que se subscribe al tópico "camera_image" y visualiza la información)
 
 ```sh
 $ rosrun IP_Camera_pkg subscriber.py
 ```
+8. A disfrutar
