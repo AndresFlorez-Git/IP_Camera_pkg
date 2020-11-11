@@ -24,6 +24,8 @@ $ git clone
 ```
 3. Modificar en el archivo pubisher.py la direccion IP a la de ustedes.
 
+![imagen](https://github.com/AndresFlorez-Git/IP_Camera_pkg/blob/main/pic/ip_mod.png)
+
 4.Compilar
 ```sh
 $ catkin_make
