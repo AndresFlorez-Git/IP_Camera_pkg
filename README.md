@@ -39,13 +39,17 @@ $ catkin_make
 ```sh
 $ source devel/setup.bash 
 ```
-6. Ejecutar pubisher.py (crea un nodo "IPCamera" que publica al tópico "camera_image" la imagen)
+6. Dar permiso de ejecución a los archivos subscriber.py, publisher.py en la carpeta scripts del paquede de ROS descargado
 ```sh
-$ rosrun IP_Camera_pkg pubisher.py
+$ chmod +x subscriber.py publisher.py
 ```
-7. Ejecutar en otra terminal (estableciendo variables de entorno) subscriber.py (crea un nodo que se subscribe al tópico "camera_image" y visualiza la información)
+7. Ejecutar en workspace pubisher.py (crea un nodo "IPCamera" que publica al tópico "camera_image" la imagen)
+```sh
+$ rosrun camera_pkg pubisher.py
+```
+8. Ejecutar en otra terminal (estableciendo variables de entorno) subscriber.py (crea un nodo que se subscribe al tópico "camera_image" y visualiza la información)
 
 ```sh
-$ rosrun IP_Camera_pkg subscriber.py
+$ rosrun camera_pkg subscriber.py
 ```
-8. A disfrutar
+9. A disfrutar
