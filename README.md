@@ -2,7 +2,7 @@
 Pasos para conectar el video captado en una camara ip en una red local con ROS.
 
 ## En el Movil.
-1. Descargar la app IP Webcam
+1. Descargar la app IP Webcam (https://play.google.com/store/apps/details?id=com.pas.webcam)
 2. AL ingresar a la app > preferencias de video > Resolución de video a (640x480) esto para obtener tasas más elevadas de fps.
 3. al final de la pantalla de inicio > iniciar servidor
 4. La url asociada al servidor creado se muestra en la parte inverior de la pantalla como iPv4:http://192.168.20.23:8080 (Este es mi caso)
@@ -53,3 +53,10 @@ $ rosrun camera_pkg pubisher.py
 $ rosrun camera_pkg subscriber.py
 ```
 9. A disfrutar
+
+10. Para visualizar en RVIZ:
+* En la ventana Displays > Add
+* En la ventana emergente > By topic > /camera_image > Image
+* OK
+
+
