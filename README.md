@@ -14,7 +14,7 @@ El puerto: 8080
 6. Para acceder unicamente al video transmitido, concatenar /video a la url. Eg: http://192.168.20.23:8080/video
 
 ## En PC
-1. dirigirse al directorio o workspace deseado.
+1. dirigirse al src del directorio o workspace deseado.
 ```sh
 $ cd workspace/src/
 ```
@@ -22,6 +22,11 @@ $ cd workspace/src/
 ```sh
 $ git clone https://github.com/AndresFlorez-Git/IP_Camera_pkg.git
 ```
+volver al workspace
+```sh
+$ cd ..
+```
+
 3. Modificar en el archivo pubisher.py la direccion IP a la de ustedes.
 
 ![imagen](https://github.com/AndresFlorez-Git/IP_Camera_pkg/blob/main/pic/ip_mod.png)
