@@ -20,7 +20,7 @@ $ cd workspace
 ```
 2. clonar este repositorio (Paquete de ROS).
 ```sh
-$ git clone 
+$ git clone https://github.com/AndresFlorez-Git/IP_Camera_pkg.git
 ```
 3. Modificar en el archivo pubisher.py la direccion IP a la de ustedes.
 
