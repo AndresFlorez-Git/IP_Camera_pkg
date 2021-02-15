@@ -1,6 +1,8 @@
 # IP_Camera_pkg
 Pasos para conectar el video captado en una camara ip en una red local con ROS.
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/HuJTUZ6rfD4/0.jpg)](https://www.youtube.com/watch?v=HuJTUZ6rfD4)
+
 ## En el Movil.
 1. Descargar la app IP Webcam (https://play.google.com/store/apps/details?id=com.pas.webcam)
 2. AL ingresar a la app > preferencias de video > Resolución de video a (640x480) esto para obtener tasas más elevadas de fps.
