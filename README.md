@@ -9,6 +9,10 @@ Pasos para conectar el video captado en una camara ip en una red local con ROS.
 La dirección IP es:  192.168.20.23
 El puerto: 8080
 
+Los pasos anteriores se tienen el siguiente aspecto:
+![imagen1](https://github.com/AndresFlorez-Git/IP_Camera_pkg/blob/main/pic/movil1.png)
+![imagen2](https://github.com/AndresFlorez-Git/IP_Camera_pkg/blob/main/pic/movil2.png)
+
 ### otro dispositivo
 5. Para inspeccionar el funcionamiento, ingresar a la url descrita
 6. Para acceder unicamente al video transmitido, concatenar /video a la url. Eg: http://192.168.20.23:8080/video
